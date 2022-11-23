@@ -22,7 +22,7 @@ class Counter extends Component {
     return (
       <div>
         count -{this.state.count}
-        <button onClick={this.increment()}>Increment</button>
+        <button onClick={() => this.increment()}>Increment</button>
         <button onClick={() => this.decrement()}>decrement</button>
       </div>
     );
