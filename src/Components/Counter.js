@@ -8,6 +8,7 @@ class Counter extends Component {
   }
   increment() {
     this.setState({
+        
       count: this.state.count + 1,
     });
   }
