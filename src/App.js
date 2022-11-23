@@ -24,9 +24,9 @@ function App() {
       <Welcome name="tony" heroname="IronMan">
         {" "}
       </Welcome>
-      <Hello name="toons"></Hello>
+      <Hello name="toons" heroname=""></Hello>
     </div>
   );
-} 
+}
 
 export default App;

@@ -1,5 +1,5 @@
 import React from "react";
-const Hello = () => {
+const Hello = ({ name }) => {
   //   return (
   //     <div>
   //       <h1>Hello World!</h1>
@@ -8,7 +8,7 @@ const Hello = () => {
   return React.createElement(
     "div",
     { id: 1, className: "dummy" },
-    React.createElement("h1", null, "Hello")
+    React.createElement("h1", null, name)
   );
 };
 export default Hello;
