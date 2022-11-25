@@ -11,4 +11,5 @@ const Hello = ({ name }) => {
     React.createElement("h1", null, name)
   );
 };
+// const { name, heroname } = this.props;
 export default Hello;

@@ -3,14 +3,14 @@ import React from "react";
 // function Greet() {
 //   return <h1>Hello World!</h1>;
 // }
-const Greet = (props) => {
+const children = "no children available!";
+const Greet = ({ name, heroname, children   }) => {
   // console.log(props);
   return (
     <div>
       <h1>
-        Hello {props.name} a.k.a {props.heroname}
+        Greet {name} a.k.a {heroname} {children}
       </h1>
-      {props.children}
     </div>
   );
 };
